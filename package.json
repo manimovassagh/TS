@@ -4,8 +4,8 @@
   "main": "index.js",
   "license": "MIT",
   "scripts": {
-    "start": "ts-node src/index.ts",
-    "debug": "node --inspect-brk --require ts-node/register ./src/classes/index.ts"
+    "start": "ts-node src/main.ts",
+    "debug": "node --inspect-brk --require ts-node/register ./src/components/main.ts"
   },
   "dependencies": {
     "date-fns": "^2.21.3",
